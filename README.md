@@ -14,6 +14,6 @@ provider "aws" {
 
 module "docker_instance" {
     source = "shahinam2/docker-instance/aws"
-    key_name = "clarusway"
+    key_name = "shahin-key"
 }
 ```
