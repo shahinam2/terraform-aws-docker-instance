@@ -4,7 +4,8 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  type = string
+  type        = string
+  description = "value of key_name should be the name of the key pair you created in AWS. write the key name without .pem extension"
 }
 
 variable "num_of_instance" {
